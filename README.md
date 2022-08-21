@@ -4,5 +4,5 @@
 Zestaw znaków IPA jest początkowo ograniczony, jednak można samemu dodać inne znaki w pliku <file>ipa-chars.js</file>, dodając nowy obiekt JSON do tablicy JSON znajdującej się w pliku. Trzeba jednak zachować prawidłowy format obiektu, dodając do niego następujące elementy (nie wszystkie są wymagane):
 <ul>
 <li><i><b>char</b></i> (<b><span color='#000055'>Wymagane</span></b>) - zawiera symbol IPA, który ma być wyświetlany na stronie. 
-<li><i><b>code</b></i> (<b><span color='#000055'>Wymagane</span></b>) - powinien zawierać heksadecymalny kod HTML znaku (np. dla <b>ø</b> będzie to <b>&#38248</b>), jeżeli znak ten nie zawiera się w tabeli ASCII (czyli jeżeli posiada jakikolwiek znak diakrytyczny lub jest innym niestandardowym znakiem IPA). W przeciwnym przypadku <i><b>code</b></i> musi mieć wartość <code>null</code></li>
+<li><i><b>code</b></i> (<b><span color='#000055'>Wymagane</span></b>) - powinien zawierać heksadecymalny kod HTML znaku (np. dla <b>ø</b> będzie to <b>&#38 248</b>), jeżeli znak ten nie zawiera się w tabeli ASCII (czyli jeżeli posiada jakikolwiek znak diakrytyczny lub jest innym niestandardowym znakiem IPA). W przeciwnym przypadku <i><b>code</b></i> musi mieć wartość <code>null</code></li>
 </ul>
