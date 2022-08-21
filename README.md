@@ -8,4 +8,5 @@ Zestaw znaków IPA jest początkowo ograniczony, jednak można samemu dodać inn
 <li><i><b>key</b></i> (<b>Opcjonalne</b>) - określa klawisz, po którego kliknięciu znak zostanie wstawiony do elementu <code>input</code>. Mała litera (<i>lower case</i>) oznacza klawisz bez <b>Shift</b>, natomiast duża litera (<i>upper case</i>) klawisz z przytrzymanym <b>Shift</b>. Dodatkowo nazwa klawisza może być poprzedzona znakiem "<b>$</b>", wtedy będzie dodatkowo wymaganie trzymanie klawisza <b>alt</b> do wstawienia znaku. Jeżeli klucz <i><b>key</b></i> będzie <code>undefined</code>, zostanie do niego skopiowana wartość klucza <i><b>char</b></i> jako wartość domyślna.</li>
 <li><i><b>button</b></i> (<b>Opcjonalne</b>) - klucz określa (musi zawierać wartość <b>boolean</b>), czy skrypt ma tworzyć dla danego znaku element <code>button</code> wyświetlany na stronie. Wartość domyślna dla klucza to <b>false</b>, przypadku <code>undefined</code>.</li>
 </ul>
+
 ![image](https://user-images.githubusercontent.com/73580223/185797582-fc2bc92c-35ea-480f-8a89-215e38ff1d8b.png)
