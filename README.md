@@ -9,4 +9,4 @@ Zestaw znaków IPA jest początkowo ograniczony, jednak można samemu dodać inn
 <li><i><b>button</b></i> (<b>Opcjonalne</b>) - klucz określa (musi zawierać wartość <b>boolean</b>), czy skrypt ma tworzyć dla danego znaku element <code>button</code> wyświetlany na stronie. Wartość domyślna dla klucza to <b>false</b>, przypadku <code>undefined</code>.</li>
 </ul><br>
 
-![image](https://user-images.githubusercontent.com/73580223/185797582-fc2bc92c-35ea-480f-8a89-215e38ff1d8b.png)
+![image](https://user-images.githubusercontent.com/73580223/185797757-1219d297-9843-4065-9a58-350ad2fa0911.png)
